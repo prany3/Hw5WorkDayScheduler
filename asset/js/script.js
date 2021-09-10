@@ -7,7 +7,7 @@ var dayElement = document.getElementById("currentDay")
 dayElement.innerHTML = currentDay;
 var timeElement = document.getElementById("currentTime")
 timeElement.innerHTML = currentTime;
-
+// savePlanner
 var plannerContent = [];
 function savedPlanner() {
     var getInput1 = localStorage.getItem("planner_1")
